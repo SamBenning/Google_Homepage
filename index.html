@@ -10,23 +10,30 @@
     </head>
     <body>
         <div class = "page">
-        <div class = "topnav">
-            <ul>
-            <li>About</li>
-            <li>Store</li>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><img src="images/branding/outline_apps_black_48dp.png" alt="Apps" style="width: 36px; height: 36px;"></li>
-            <li><img src="images/branding/outline_login_black_48dp.png" alt="Login" style="width: 36px; height: 36px;"></li>
-            </ul>
-        </div>
-        <div class = "top-page">
+            <nav>
+            <div class = "topnav-left">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
+            <div class = "topnav-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <img src="images/branding/outline_apps_black_48dp.png" alt="Apps" style="width: 36px; height: 36px;">
+                <img src="images/branding/outline_login_black_48dp.png" alt="Login" style="width: 36px; height: 36px;">
+            </nav>
+        
+        <main>
+        
+            <div class = "top-page">
             <div class = "logo">
                 <img src="images/branding/googlelogo_color_272x92dp.png">
             </div>
         </div>
         <div class = "search-bar">
-            <input type="text" placeholder="Search">
+            <input type="text" placeholder="">
+            
+        </div>
+        <div class = "buttons">
             <button type="button">Google Search</button>
             <button type="button">I'm Feeling Lucky</button>
         </div>
@@ -43,7 +50,11 @@
                 <li>Settings</li>
             </ul>
         </div>
+
+        </main>
+
         </div>
+
         
         <script src="" async defer></script>
     </body>
